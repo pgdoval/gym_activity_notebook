@@ -4,7 +4,8 @@
 import 'package:angular2/bootstrap.dart';
 
 import 'package:gym/components/activities_list_component.dart';
+import 'package:gym/services/ActivityListService.dart';
 
 main() {
-  bootstrap(ActivitiesListComponent);
+  bootstrap(ActivitiesListComponent, [ActivityListService]);
 }
